@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		D453AE782AC46A620019C9CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AE772AC46A620019C9CE /* AppDelegate.swift */; };
 		D453AE7A2AC46A620019C9CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AE792AC46A620019C9CE /* SceneDelegate.swift */; };
-		D453AE7C2AC46A620019C9CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AE7B2AC46A620019C9CE /* ViewController.swift */; };
-		D453AE7F2AC46A620019C9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D453AE7D2AC46A620019C9CE /* Main.storyboard */; };
 		D453AE812AC46A630019C9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D453AE802AC46A630019C9CE /* Assets.xcassets */; };
 		D453AE842AC46A630019C9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D453AE822AC46A630019C9CE /* LaunchScreen.storyboard */; };
 		D453AE8F2AC46A630019C9CE /* MVVMModelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AE8E2AC46A630019C9CE /* MVVMModelAppTests.swift */; };
 		D453AE992AC46A630019C9CE /* MVVMModelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AE982AC46A630019C9CE /* MVVMModelAppUITests.swift */; };
 		D453AE9B2AC46A630019C9CE /* MVVMModelAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AE9A2AC46A630019C9CE /* MVVMModelAppUITestsLaunchTests.swift */; };
+		D453AEB32AC46BE10019C9CE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AEB12AC46BE10019C9CE /* HomeVC.swift */; };
+		D453AEB42AC46BE10019C9CE /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D453AEB22AC46BE10019C9CE /* HomeVC.xib */; };
+		D453AEB82AC46C590019C9CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AEB72AC46C590019C9CE /* HomeViewModel.swift */; };
+		D453AEBA2AC46C7A0019C9CE /* HomeVCTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AEB92AC46C7A0019C9CE /* HomeVCTableView.swift */; };
+		D453AEBD2AC46D1E0019C9CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D453AEBC2AC46D1E0019C9CE /* Alamofire */; };
+		D453AEC02AC46D3D0019C9CE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D453AEBF2AC46D3D0019C9CE /* SDWebImage */; };
+		D453AEC22AC46D3D0019C9CE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D453AEC12AC46D3D0019C9CE /* SDWebImageMapKit */; };
+		D453AEC42AC46D6C0019C9CE /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AEC32AC46D6C0019C9CE /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		D453AE742AC46A620019C9CE /* MVVMModelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMModelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D453AE772AC46A620019C9CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D453AE792AC46A620019C9CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D453AE7B2AC46A620019C9CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D453AE7E2AC46A620019C9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D453AE802AC46A630019C9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D453AE832AC46A630019C9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D453AE852AC46A630019C9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		D453AE942AC46A630019C9CE /* MVVMModelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMModelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D453AE982AC46A630019C9CE /* MVVMModelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModelAppUITests.swift; sourceTree = "<group>"; };
 		D453AE9A2AC46A630019C9CE /* MVVMModelAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModelAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D453AEB12AC46BE10019C9CE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D453AEB22AC46BE10019C9CE /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		D453AEB72AC46C590019C9CE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D453AEB92AC46C7A0019C9CE /* HomeVCTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCTableView.swift; sourceTree = "<group>"; };
+		D453AEC32AC46D6C0019C9CE /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D453AEC02AC46D3D0019C9CE /* SDWebImage in Frameworks */,
+				D453AEC22AC46D3D0019C9CE /* SDWebImageMapKit in Frameworks */,
+				D453AEBD2AC46D1E0019C9CE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +111,15 @@
 		D453AE762AC46A620019C9CE /* MVVMModelApp */ = {
 			isa = PBXGroup;
 			children = (
-				D453AE772AC46A620019C9CE /* AppDelegate.swift */,
-				D453AE792AC46A620019C9CE /* SceneDelegate.swift */,
-				D453AE7B2AC46A620019C9CE /* ViewController.swift */,
-				D453AE7D2AC46A620019C9CE /* Main.storyboard */,
-				D453AE802AC46A630019C9CE /* Assets.xcassets */,
-				D453AE822AC46A630019C9CE /* LaunchScreen.storyboard */,
+				D453AEAE2AC46B4F0019C9CE /* Networking */,
+				D453AEAD2AC46B370019C9CE /* Extensions */,
+				D453AEAC2AC46B250019C9CE /* Resourses */,
+				D453AEAB2AC46B1A0019C9CE /* Classes */,
+				D453AEAA2AC46B120019C9CE /* Controllers */,
+				D453AEA92AC46AF70019C9CE /* ViewModel */,
+				D453AEA82AC46AE80019C9CE /* Views */,
+				D453AEA72AC46ADB0019C9CE /* Models */,
+				D453AEAF2AC46BAB0019C9CE /* Core */,
 				D453AE852AC46A630019C9CE /* Info.plist */,
 			);
 			path = MVVMModelApp;
@@ -127,6 +142,102 @@
 			path = MVVMModelAppUITests;
 			sourceTree = "<group>";
 		};
+		D453AEA72AC46ADB0019C9CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D453AEA82AC46AE80019C9CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D453AE822AC46A630019C9CE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D453AEA92AC46AF70019C9CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D453AEB52AC46C380019C9CE /* Home */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D453AEAA2AC46B120019C9CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D453AEB02AC46BCA0019C9CE /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D453AEAB2AC46B1A0019C9CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D453AEAC2AC46B250019C9CE /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				D453AE802AC46A630019C9CE /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		D453AEAD2AC46B370019C9CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D453AEC32AC46D6C0019C9CE /* UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D453AEAE2AC46B4F0019C9CE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D453AEC52AC46E1E0019C9CE /* NetworkBase */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D453AEAF2AC46BAB0019C9CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D453AE772AC46A620019C9CE /* AppDelegate.swift */,
+				D453AE792AC46A620019C9CE /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D453AEB02AC46BCA0019C9CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D453AEB12AC46BE10019C9CE /* HomeVC.swift */,
+				D453AEB22AC46BE10019C9CE /* HomeVC.xib */,
+				D453AEB92AC46C7A0019C9CE /* HomeVCTableView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D453AEB52AC46C380019C9CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D453AEB72AC46C590019C9CE /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D453AEC52AC46E1E0019C9CE /* NetworkBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkBase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +254,11 @@
 			dependencies = (
 			);
 			name = MVVMModelApp;
+			packageProductDependencies = (
+				D453AEBC2AC46D1E0019C9CE /* Alamofire */,
+				D453AEBF2AC46D3D0019C9CE /* SDWebImage */,
+				D453AEC12AC46D3D0019C9CE /* SDWebImageMapKit */,
+			);
 			productName = MVVMModelApp;
 			productReference = D453AE742AC46A620019C9CE /* MVVMModelApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +331,10 @@
 				Base,
 			);
 			mainGroup = D453AE6B2AC46A620019C9CE;
+			packageReferences = (
+				D453AEBB2AC46D1E0019C9CE /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D453AEBE2AC46D3D0019C9CE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = D453AE752AC46A620019C9CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D453AE842AC46A630019C9CE /* LaunchScreen.storyboard in Resources */,
+				D453AEB42AC46BE10019C9CE /* HomeVC.xib in Resources */,
 				D453AE812AC46A630019C9CE /* Assets.xcassets in Resources */,
-				D453AE7F2AC46A620019C9CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D453AE7C2AC46A620019C9CE /* ViewController.swift in Sources */,
+				D453AEBA2AC46C7A0019C9CE /* HomeVCTableView.swift in Sources */,
+				D453AEB32AC46BE10019C9CE /* HomeVC.swift in Sources */,
 				D453AE782AC46A620019C9CE /* AppDelegate.swift in Sources */,
+				D453AEB82AC46C590019C9CE /* HomeViewModel.swift in Sources */,
+				D453AEC42AC46D6C0019C9CE /* UIImageView.swift in Sources */,
 				D453AE7A2AC46A620019C9CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +420,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D453AE7D2AC46A620019C9CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D453AE7E2AC46A620019C9CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D453AE822AC46A630019C9CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +556,6 @@
 				INFOPLIST_FILE = MVVMModelApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +582,6 @@
 				INFOPLIST_FILE = MVVMModelApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +709,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D453AEBB2AC46D1E0019C9CE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D453AEBE2AC46D3D0019C9CE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D453AEBC2AC46D1E0019C9CE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D453AEBB2AC46D1E0019C9CE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D453AEBF2AC46D3D0019C9CE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D453AEBE2AC46D3D0019C9CE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D453AEC12AC46D3D0019C9CE /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D453AEBE2AC46D3D0019C9CE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D453AE6C2AC46A620019C9CE /* Project object */;
 }
