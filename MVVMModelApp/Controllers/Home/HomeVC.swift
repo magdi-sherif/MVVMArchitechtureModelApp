@@ -24,6 +24,7 @@ class HomeVC: UIViewController {
         title = "Home"
         view.backgroundColor = .link
     }
+    
 
 
 }

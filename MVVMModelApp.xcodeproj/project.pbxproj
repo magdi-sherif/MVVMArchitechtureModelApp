@@ -22,6 +22,9 @@
 		D453AEC02AC46D3D0019C9CE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D453AEBF2AC46D3D0019C9CE /* SDWebImage */; };
 		D453AEC22AC46D3D0019C9CE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D453AEC12AC46D3D0019C9CE /* SDWebImageMapKit */; };
 		D453AEC42AC46D6C0019C9CE /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D453AEC32AC46D6C0019C9CE /* UIImageView.swift */; };
+		D4D992772AC4A974000B9A10 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D992762AC4A974000B9A10 /* TargetType.swift */; };
+		D4D992792AC4ABA7000B9A10 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D992782AC4ABA7000B9A10 /* Constant.swift */; };
+		D4D9927B2AC4AC76000B9A10 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9927A2AC4AC76000B9A10 /* BaseApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		D453AEB72AC46C590019C9CE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D453AEB92AC46C7A0019C9CE /* HomeVCTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCTableView.swift; sourceTree = "<group>"; };
 		D453AEC32AC46D6C0019C9CE /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D4D992762AC4A974000B9A10 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		D4D992782AC4ABA7000B9A10 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D4D9927A2AC4AC76000B9A10 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +240,9 @@
 		D453AEC52AC46E1E0019C9CE /* NetworkBase */ = {
 			isa = PBXGroup;
 			children = (
+				D4D992762AC4A974000B9A10 /* TargetType.swift */,
+				D4D992782AC4ABA7000B9A10 /* Constant.swift */,
+				D4D9927A2AC4AC76000B9A10 /* BaseApi.swift */,
 			);
 			path = NetworkBase;
 			sourceTree = "<group>";
@@ -381,9 +390,12 @@
 				D453AEBA2AC46C7A0019C9CE /* HomeVCTableView.swift in Sources */,
 				D453AEB32AC46BE10019C9CE /* HomeVC.swift in Sources */,
 				D453AE782AC46A620019C9CE /* AppDelegate.swift in Sources */,
+				D4D992792AC4ABA7000B9A10 /* Constant.swift in Sources */,
 				D453AEB82AC46C590019C9CE /* HomeViewModel.swift in Sources */,
 				D453AEC42AC46D6C0019C9CE /* UIImageView.swift in Sources */,
 				D453AE7A2AC46A620019C9CE /* SceneDelegate.swift in Sources */,
+				D4D992772AC4A974000B9A10 /* TargetType.swift in Sources */,
+				D4D9927B2AC4AC76000B9A10 /* BaseApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
