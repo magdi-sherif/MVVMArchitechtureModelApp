@@ -18,12 +18,17 @@ class HomeVC: UIViewController {
 
         setView()
         setupTableView()
+        viewModel.getApiData()
+        
+        
     }
     
     private func setView() {
         title = "Home"
         view.backgroundColor = .link
     }
+    
+    
     
 
 

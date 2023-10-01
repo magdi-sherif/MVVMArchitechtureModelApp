@@ -7,8 +7,24 @@
 
 import UIKit
 
+
 class HomeViewModel {
     
+    
+    // get the data 
+    func getApiData() {
+        let api: ProductsApiProtocol = getProductsApi()
+        api.getProducts { result in
+            switch result {
+            case .success(let success):
+                print(success ?? "")
+            case .failure(let failure):
+                print(failure)
+            }
+        }
+    }
+    
+
     func numberOfSections() -> Int {
         return 1
     }
@@ -17,7 +33,10 @@ class HomeViewModel {
         return 10
     }
     
-
+    var products: [ProductsModel]?
+    
+    
     
     
 }
+

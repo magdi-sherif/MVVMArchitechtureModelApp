@@ -8,6 +8,7 @@
 import Foundation
 import Alamofire
 
+// handle errors
 enum ErrorMessage: Error {
     
     case urlError
@@ -18,12 +19,12 @@ enum ErrorMessage: Error {
 }
 
 enum ProductsNetworking {
-    
     case getProducts
     // add any cases available like get categories ...
     
 }
 
+// https://dummyjson.com/products
 extension ProductsNetworking: TargetType {
     
     var baseUrl: String {
